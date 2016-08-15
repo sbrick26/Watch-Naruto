@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EB5CF51D618D0900C572E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5CF41D618D0900C572E9 /* AppDelegate.swift */; };
+		C4EB5CF71D618D0900C572E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5CF61D618D0900C572E9 /* ViewController.swift */; };
+		C4EB5CFA1D618D0900C572E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB5CF81D618D0900C572E9 /* Main.storyboard */; };
+		C4EB5CFD1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5CFB1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld */; };
+		C4EB5CFF1D618D0900C572E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EB5CFE1D618D0900C572E9 /* Assets.xcassets */; };
+		C4EB5D021D618D0900C572E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB5D001D618D0900C572E9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4EB5CF11D618D0800C572E9 /* Watch Naruto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Naruto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EB5CF41D618D0900C572E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4EB5CF61D618D0900C572E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4EB5CF91D618D0900C572E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EB5CFC1D618D0900C572E9 /* Watch_Naruto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Watch_Naruto.xcdatamodel; sourceTree = "<group>"; };
+		C4EB5CFE1D618D0900C572E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EB5D011D618D0900C572E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EB5D031D618D0900C572E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EB5CEE1D618D0800C572E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EB5CE81D618D0800C572E9 = {
+			isa = PBXGroup;
+			children = (
+				C4EB5CF31D618D0900C572E9 /* Watch Naruto */,
+				C4EB5CF21D618D0800C572E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EB5CF21D618D0800C572E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB5CF11D618D0800C572E9 /* Watch Naruto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EB5CF31D618D0900C572E9 /* Watch Naruto */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB5CF41D618D0900C572E9 /* AppDelegate.swift */,
+				C4EB5CF61D618D0900C572E9 /* ViewController.swift */,
+				C4EB5CF81D618D0900C572E9 /* Main.storyboard */,
+				C4EB5CFE1D618D0900C572E9 /* Assets.xcassets */,
+				C4EB5D001D618D0900C572E9 /* LaunchScreen.storyboard */,
+				C4EB5D031D618D0900C572E9 /* Info.plist */,
+				C4EB5CFB1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld */,
+			);
+			path = "Watch Naruto";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EB5CF01D618D0800C572E9 /* Watch Naruto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EB5D061D618D0900C572E9 /* Build configuration list for PBXNativeTarget "Watch Naruto" */;
+			buildPhases = (
+				C4EB5CED1D618D0800C572E9 /* Sources */,
+				C4EB5CEE1D618D0800C572E9 /* Frameworks */,
+				C4EB5CEF1D618D0800C572E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Naruto";
+			productName = "Watch Naruto";
+			productReference = C4EB5CF11D618D0800C572E9 /* Watch Naruto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EB5CE91D618D0800C572E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Swayam Barik";
+				TargetAttributes = {
+					C4EB5CF01D618D0800C572E9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6T2RRMSN73;
+					};
+				};
+			};
+			buildConfigurationList = C4EB5CEC1D618D0800C572E9 /* Build configuration list for PBXProject "Watch Naruto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EB5CE81D618D0800C572E9;
+			productRefGroup = C4EB5CF21D618D0800C572E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EB5CF01D618D0800C572E9 /* Watch Naruto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EB5CEF1D618D0800C572E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EB5D021D618D0900C572E9 /* LaunchScreen.storyboard in Resources */,
+				C4EB5CFF1D618D0900C572E9 /* Assets.xcassets in Resources */,
+				C4EB5CFA1D618D0900C572E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EB5CED1D618D0800C572E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EB5CF71D618D0900C572E9 /* ViewController.swift in Sources */,
+				C4EB5CF51D618D0900C572E9 /* AppDelegate.swift in Sources */,
+				C4EB5CFD1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4EB5CF81D618D0900C572E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EB5CF91D618D0900C572E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4EB5D001D618D0900C572E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EB5D011D618D0900C572E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EB5D041D618D0900C572E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4EB5D051D618D0900C572E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EB5D071D618D0900C572E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch Naruto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swayambarik.Watch-Naruto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4EB5D081D618D0900C572E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Watch Naruto/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swayambarik.Watch-Naruto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EB5CEC1D618D0800C572E9 /* Build configuration list for PBXProject "Watch Naruto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB5D041D618D0900C572E9 /* Debug */,
+				C4EB5D051D618D0900C572E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EB5D061D618D0900C572E9 /* Build configuration list for PBXNativeTarget "Watch Naruto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB5D071D618D0900C572E9 /* Debug */,
+				C4EB5D081D618D0900C572E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4EB5CFB1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4EB5CFC1D618D0900C572E9 /* Watch_Naruto.xcdatamodel */,
+			);
+			currentVersion = C4EB5CFC1D618D0900C572E9 /* Watch_Naruto.xcdatamodel */;
+			path = Watch_Naruto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C4EB5CE91D618D0800C572E9 /* Project object */;
+}
