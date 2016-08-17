@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C428A8AD1D63F5520090B9E8 /* naruto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C428A8AC1D63F5520090B9E8 /* naruto.jpg */; };
+		C428A8B01D63F7230090B9E8 /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428A8AF1D63F7230090B9E8 /* VideoTableViewController.swift */; };
+		C428A8B21D63F8A80090B9E8 /* VideoMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428A8B11D63F8A80090B9E8 /* VideoMenuCell.swift */; };
+		C428A8B41D63F9E00090B9E8 /* LatestVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428A8B31D63F9E00090B9E8 /* LatestVideoCell.swift */; };
+		C428A8B61D63FCCC0090B9E8 /* ViewEpisodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C428A8B51D63FCCC0090B9E8 /* ViewEpisodeController.swift */; };
 		C4EB5CF51D618D0900C572E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5CF41D618D0900C572E9 /* AppDelegate.swift */; };
 		C4EB5CF71D618D0900C572E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5CF61D618D0900C572E9 /* ViewController.swift */; };
 		C4EB5CFA1D618D0900C572E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB5CF81D618D0900C572E9 /* Main.storyboard */; };
 		C4EB5CFD1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5CFB1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld */; };
 		C4EB5CFF1D618D0900C572E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EB5CFE1D618D0900C572E9 /* Assets.xcassets */; };
 		C4EB5D021D618D0900C572E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB5D001D618D0900C572E9 /* LaunchScreen.storyboard */; };
+		C4EB5D0A1D618D5300C572E9 /* EpisodeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EB5D091D618D5300C572E9 /* EpisodeInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C428A8AC1D63F5520090B9E8 /* naruto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naruto.jpg; sourceTree = "<group>"; };
+		C428A8AE1D63F6700090B9E8 /* njnaruto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = njnaruto.ttf; path = ../njnaruto.ttf; sourceTree = "<group>"; };
+		C428A8AF1D63F7230090B9E8 /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		C428A8B11D63F8A80090B9E8 /* VideoMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoMenuCell.swift; sourceTree = "<group>"; };
+		C428A8B31D63F9E00090B9E8 /* LatestVideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestVideoCell.swift; sourceTree = "<group>"; };
+		C428A8B51D63FCCC0090B9E8 /* ViewEpisodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEpisodeController.swift; sourceTree = "<group>"; };
 		C4EB5CF11D618D0800C572E9 /* Watch Naruto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Watch Naruto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB5CF41D618D0900C572E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EB5CF61D618D0900C572E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,7 @@
 		C4EB5CFE1D618D0900C572E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4EB5D011D618D0900C572E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EB5D031D618D0900C572E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EB5D091D618D5300C572E9 /* EpisodeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +69,20 @@
 		C4EB5CF31D618D0900C572E9 /* Watch Naruto */ = {
 			isa = PBXGroup;
 			children = (
+				C428A8AE1D63F6700090B9E8 /* njnaruto.ttf */,
 				C4EB5CF41D618D0900C572E9 /* AppDelegate.swift */,
 				C4EB5CF61D618D0900C572E9 /* ViewController.swift */,
+				C4EB5D091D618D5300C572E9 /* EpisodeInfo.swift */,
 				C4EB5CF81D618D0900C572E9 /* Main.storyboard */,
+				C428A8B51D63FCCC0090B9E8 /* ViewEpisodeController.swift */,
+				C428A8B31D63F9E00090B9E8 /* LatestVideoCell.swift */,
+				C428A8B11D63F8A80090B9E8 /* VideoMenuCell.swift */,
+				C428A8AF1D63F7230090B9E8 /* VideoTableViewController.swift */,
 				C4EB5CFE1D618D0900C572E9 /* Assets.xcassets */,
 				C4EB5D001D618D0900C572E9 /* LaunchScreen.storyboard */,
 				C4EB5D031D618D0900C572E9 /* Info.plist */,
 				C4EB5CFB1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld */,
+				C428A8AC1D63F5520090B9E8 /* naruto.jpg */,
 			);
 			path = "Watch Naruto";
 			sourceTree = "<group>";
@@ -128,6 +148,7 @@
 			files = (
 				C4EB5D021D618D0900C572E9 /* LaunchScreen.storyboard in Resources */,
 				C4EB5CFF1D618D0900C572E9 /* Assets.xcassets in Resources */,
+				C428A8AD1D63F5520090B9E8 /* naruto.jpg in Resources */,
 				C4EB5CFA1D618D0900C572E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +161,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EB5CF71D618D0900C572E9 /* ViewController.swift in Sources */,
+				C4EB5D0A1D618D5300C572E9 /* EpisodeInfo.swift in Sources */,
+				C428A8B21D63F8A80090B9E8 /* VideoMenuCell.swift in Sources */,
+				C428A8B01D63F7230090B9E8 /* VideoTableViewController.swift in Sources */,
 				C4EB5CF51D618D0900C572E9 /* AppDelegate.swift in Sources */,
 				C4EB5CFD1D618D0900C572E9 /* Watch_Naruto.xcdatamodeld in Sources */,
+				C428A8B61D63FCCC0090B9E8 /* ViewEpisodeController.swift in Sources */,
+				C428A8B41D63F9E00090B9E8 /* LatestVideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +317,7 @@
 				C4EB5D081D618D0900C572E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
